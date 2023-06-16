@@ -16,13 +16,13 @@ export const ContactUs = () => {
   };
 
   return (
-    <section id="contact" className='bg-slate-300 h-screen'>
+    <section className='bg-slate-300 h-screen'>
       <div className="flex flex-col items-center justify-between">
         <div className="text-center py-8">
-          <h2 className="text-3xl font-bold">CONTACT US</h2>
+          <h2 className="text-3xl font-bold">CONTACT ME</h2>
           <div className="rounded-full mx-auto bg-slate-700 h-1 w-20 mt-1 mb-4"></div>
           <div className="mt-3 pb-3">
-            Feel free to Contact Us by submitting the form below and we will get back to you as soon as possible
+            Feel free to Contact Me by submitting the form below and I will get back to you as soon as possible
           </div>
           <form ref={form} className="needs-validation" onSubmit={sendEmail}>
             <div className="mb-3 flex items-center">
